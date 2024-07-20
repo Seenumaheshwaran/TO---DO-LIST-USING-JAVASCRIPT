@@ -1,0 +1,32 @@
+ul li{
+    list-style-type: none;
+    border: 1px solid;
+    width: 83%;
+    text-align:justify;
+    padding: 5px;
+}
+ul{
+    display: flex;
+}
+.container{
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid;
+    padding: 20px;
+    padding-right: 40px;
+}
+.container h1{
+    text-align: center;
+    padding-left: 20px;
+}
+.label{
+    padding-left: 40px;
+}
+.label input{
+    padding: 5px;
+    width: 80%;
+}
+button{
+    padding: 5px;
+    margin-left: 10px;
+}

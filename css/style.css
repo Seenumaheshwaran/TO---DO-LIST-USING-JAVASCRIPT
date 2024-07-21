@@ -1,3 +1,6 @@
+*{
+    background-color: #F7DCB9;
+}
 ul li{
     list-style-type: none;
     border: 1px solid;
@@ -7,6 +10,7 @@ ul li{
 }
 ul{
     display: flex;
+    background-color: #DEAC80;
 }
 .container{
     width: 400px;
@@ -14,13 +18,18 @@ ul{
     border: 1px solid;
     padding: 20px;
     padding-right: 40px;
+    background-color: #DEAC80;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px;
 }
 .container h1{
     text-align: center;
     padding-left: 20px;
+    background-color: #DEAC80;
 }
 .label{
     padding-left: 40px;
+    background-color: #DEAC80;
 }
 .label input{
     padding: 5px;
@@ -29,4 +38,9 @@ ul{
 button{
     padding: 5px;
     margin-left: 10px;
+    background-color: #F7DCB9;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #DEAC80;
 }

@@ -12,15 +12,6 @@ function addTask(){
     taskList.appendChild(deleteButton);
     deleteButton.onclick=function(){
         taskList.removeChild(li);
+        taskList.removeChild(deleteButton);
     }
     }
-
-
-        
-
-
-
-
-
-
-
